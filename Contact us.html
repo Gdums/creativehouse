@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative House</title>
+    <link rel="stylesheet" href="style.css">
+
+<script src="https://kit.fontawesome.com/2e0a4864b4.js"></script>
+</head>
+<body>
+    <i class="fas fa-bars" onclick="ShowMenu()"></i>    
+<section class="Sub-header">
+    <nav>
+        <a href="c.html"><img src="Logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                  <li><a href="Creative house.html">HOME</a></li>
+                  <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Project.html">PROJECT</a></li>
+                    <li><a href="Contact us.html">CONTACT</a></li>
+                 </ul>
+        <div class="rectangle-5">
+          <div class="search-product">
+            SEARCH PRODUCT
+          </div>
+        </div>
+    </nav>    
+</section>
+<!------ Contact Us ------->
+<section class="location">
+    <div class="CONTACT-title">CONTACT US </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.6911454979613!2d110.39606210000001!3d-7.0455343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708bc483f71903%3A0xb3799c883ec25edf!2sJl.%20Kalimasada%20No.36%2C%20Sekaran%2C%20Kec.%20Gn.%20Pati%2C%20Kota%20Semarang%2C%20Jawa%20Tengah%2050229!5e0!3m2!1sen!2sid!4v1719232081986!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5> Jl. Kalimasada No.36 50229</h5>
+                    <p> Semarang, West Java, Indonesia</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5> +62 95390666662</h5>
+                    <p> Sunday to tuesday, 8AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5> adddamms001@gmail.com</h5>
+                    <p>Email us for more inovation house</p>
+                </span>
+            </div>
+            <div class="contact-form">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea name="message" placeholder="Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!------ Course ------->
+        <div class="container-about">
+            <div class="where-imagination-meet-innovation-about">
+              Where Imagination<br />
+              Meet Innovation
+            </div>
+            <div class="group-24">
+              <div class="offices-about">
+                OFFICES
+              </div>
+              <div class="jl-kalimasada-no-3650229-semarang-jawa-tengah-about">
+                Jl. Kalimasada No.36 50229 Semarang Jawa Tengah
+                <div class="social-media-links">
+                    <a href="https://www.linkedin.com/in/ddumms/" target="_blank" title="LinkedIn">© MADE BY SADDAM MULADI -</a>
+            </div>
+      </div>
+<!--------JavaScript for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function ShowMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){ 
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
